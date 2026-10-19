@@ -95537,20 +95537,20 @@ case 2:s=3
 return A.k(a.le("      CREATE TABLE level_list_points (\n        id INTEGER PRIMARY KEY AUTOINCREMENT,\n        list_id INTEGER NOT NULL,\n        name TEXT NOT NULL,\n        level REAL NOT NULL,\n        sort_order INTEGER NOT NULL DEFAULT 0,\n        FOREIGN KEY(list_id) REFERENCES level_lists(id) ON DELETE CASCADE\n      )\n    "),$async$r1)
 case 3:return A.p(null,r)}})
 return A.q($async$r1,r)},
-AX(a){return this.aol(a)},
-aol(a){var s=0,r=A.r(t.H),q,p,o,n,m,l,k
-var $async$AX=A.t(function(b,c){if(b===1)return A.o(c,r)
-for(;;)switch(s){case 0:q=t.N,p=t.X,o=0
-case 2:if(!(o<20)){s=4
-break}n=B.Pe[o]
-m=A.Uk("cp_points",A.ag(["code",n.a,"elevation",n.b,"note",n.c,"sort_order",o],q,p),null,null)
-l=m.a
-l===$&&A.a()
-k=m.b
+AX(a,b){return this.aol(a,b)},
+aol(a,b){var s=0,r=A.r(t.H),q,p,o,n,m,l,k,j
+var $async$AX=A.t(function(c,d){if(c===1)return A.o(d,r)
+for(;;)switch(s){case 0:q=b.length,p=t.N,o=t.X,n=0
+case 2:if(!(n<q)){s=4
+break}m=b[n]
+l=A.Uk("cp_points",A.ag(["code",m.a,"elevation",m.b,"note",m.c,"sort_order",n],p,o),null,null)
+k=l.a
+k===$&&A.a()
+j=l.b
 if(a.gdX(a).hN$)A.V(A.j9("error database_closed",null,null,null))
 s=5
-return A.k(a.gdX(a).F2(a.ghX(),l,k),$async$AX)
-case 5:case 3:++o
+return A.k(a.gdX(a).F2(a.ghX(),k,j),$async$AX)
+case 5:case 3:++n
 s=2
 break
 case 4:return A.p(null,r)}})
@@ -95945,7 +95945,7 @@ case 4:p=q.a
 s=5
 return A.k(p.r1(a),$async$$2)
 case 5:s=6
-return A.k(p.AX(a),$async$$2)
+return A.k(p.AX(a,B.Pe),$async$$2)
 case 6:s=7
 return A.k(p.rq(a),$async$$2)
 case 7:return A.p(null,r)}})
@@ -95998,7 +95998,7 @@ s.Ap()
 return s},
 $S:567}
 A.afq.prototype={
-$3(a,b,c){return new A.tp(B.MU,new A.afp(b),"\ub808\ubca8\uc57c\uc7a5",A.aVm(B.jG,B.ak),A.aVm(B.nj,B.ar),b.a,!1,null)},
+$3(a,b,c){return new A.tp(B.MU,new A.afp(b),"\uc2a4\ub9c8\ud2b8 \uc57c\uc7a5\uc218\ucca9",A.aVm(B.jG,B.ak),A.aVm(B.nj,B.ar),b.a,!1,null)},
 $C:"$3",
 $R:3,
 $S:568}
@@ -96214,7 +96214,7 @@ H(a){var s=A.cP(a)
 return A.y0(null,s.a,A.xZ(!0,A.afm(new A.ae8(s)),B.az,!0),null)}}
 A.ae8.prototype={
 $2(a,b){var s=null,r=this.a
-return A.aL1(new A.f5(new A.af(0,1/0,b.d-48,1/0),A.cX(A.b([A.aC("\ub808\ubca8\uc57c\uc7a5",s,s,s,A.bn(s,s,r.d,s,s,s,s,s,s,s,s,26,s,s,B.a4,s,s,!0,s,s,s,s,s,s,s,s),B.bX,s),B.iQ,A.aC("\uae30\uace0\uc2dd \ub808\ubca8\uce21\ub7c9 \uc57c\uc7a5 \uacc4\uc0b0\uae30",s,s,s,A.bn(s,s,r.e,s,s,s,s,s,s,s,s,13,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bX,s),B.Y9,new A.qq(B.MW,"\uc0c8\ub85c\uc6b4 \uce21\uc815","\uae30\uc900\uc810\ubd80\ud130 \uc0c8\ub85c \uc2dc\uc791\ud574\uc694",!0,new A.ae3(a),s),B.ds,new A.qq(B.po,"\ub808\ubca8 \ud655\uc778 (\ubca0\ud0c0)","\uc815\ud574\uc9c4 \ub808\ubca8\uacfc \uce21\uc815\ud55c \uc9c0\ubc18\uace0 \ube44\uad50",!1,new A.ae4(a),s),B.ds,new A.qq(B.N6,"\ubd88\ub7ec\uc624\uae30","\uc800\uc7a5\ud574\ub454 \uc791\uc5c5\uc744 \uc774\uc5b4\uc11c \ud574\uc694",!1,new A.ae5(a),s),B.ds,new A.qq(B.N7,"\uae30\uc900\uc810 \ucd94\uac00/\uc218\uc815","\ud604\uc7a5\uc5d0\uc11c \uc4f0\ub294 CP\uc810 \ubaa9\ub85d\uc744 \uad00\ub9ac\ud574\uc694",!1,new A.ae6(a),s),B.ds,new A.qq(B.N8,"\uc124\uc815","\ud654\uba74 \ud14c\ub9c8\uc640 \ud45c \ud45c\uc2dc \ubc29\uc2dd\uc744 \ubc14\uafd4\uc694",!1,new A.ae7(a),s)],t.p),B.d7,B.i6,B.J),s),B.ks,B.ax)},
+return A.aL1(new A.f5(new A.af(0,1/0,b.d-48,1/0),A.cX(A.b([A.aC("\uc2a4\ub9c8\ud2b8 \uc57c\uc7a5\uc218\ucca9",s,s,s,A.bn(s,s,r.d,s,s,s,s,s,s,s,s,26,s,s,B.a4,s,s,!0,s,s,s,s,s,s,s,s),B.bX,s),B.iQ,A.aC("\uae30\uace0\uc2dd \ub808\ubca8\uce21\ub7c9 \uc57c\uc7a5 \uacc4\uc0b0\uae30",s,s,s,A.bn(s,s,r.e,s,s,s,s,s,s,s,s,13,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bX,s),B.Y9,new A.qq(B.MW,"\uc0c8\ub85c\uc6b4 \uce21\uc815","\uae30\uc900\uc810\ubd80\ud130 \uc0c8\ub85c \uc2dc\uc791\ud574\uc694",!0,new A.ae3(a),s),B.ds,new A.qq(B.po,"\ub808\ubca8 \ud655\uc778 (\ubca0\ud0c0)","\uc815\ud574\uc9c4 \ub808\ubca8\uacfc \uce21\uc815\ud55c \uc9c0\ubc18\uace0 \ube44\uad50",!1,new A.ae4(a),s),B.ds,new A.qq(B.N6,"\ubd88\ub7ec\uc624\uae30","\uc800\uc7a5\ud574\ub454 \uc791\uc5c5\uc744 \uc774\uc5b4\uc11c \ud574\uc694",!1,new A.ae5(a),s),B.ds,new A.qq(B.N7,"\uae30\uc900\uc810 \ucd94\uac00/\uc218\uc815","\ud604\uc7a5\uc5d0\uc11c \uc4f0\ub294 CP\uc810 \ubaa9\ub85d\uc744 \uad00\ub9ac\ud574\uc694",!1,new A.ae6(a),s),B.ds,new A.qq(B.N8,"\uc124\uc815","\ud654\uba74 \ud14c\ub9c8\uc640 \ud45c \ud45c\uc2dc \ubc29\uc2dd\uc744 \ubc14\uafd4\uc694",!1,new A.ae7(a),s)],t.p),B.d7,B.i6,B.J),s),B.ks,B.ax)},
 $S:575}
 A.ae3.prototype={
 $0(){return A.MA(this.a,null,null)},
@@ -96653,7 +96653,7 @@ r=e.c
 j=r.c
 j=j==="levelCheck"||B.c.bo(j,"levelCheck:")
 if(j){j=e.z
-j="\ub808\ubca8 \ud655\uc778 \xb7 "+(j==null?B.cN:j).a}else j="\ub808\ubca8\uc57c\uc7a5"
+j="\ub808\ubca8 \ud655\uc778 \xb7 "+(j==null?B.cN:j).a}else j="\uc2a4\ub9c8\ud2b8 \uc57c\uc7a5\uc218\ucca9"
 j=A.aC(j,1,B.ao,g,B.iX,g,g)
 if(q)r="\uae30\uace0\uc2dd \xb7 \uc544\uc9c1 \uc2dc\uc791 \uc804"
 else r=r.r!=null&&r.x.length===0?"\uae30\uace0\uc2dd \xb7 \uae30\uacc4 \uc774\ub3d9 \uc911(\uacbd\uc720)":"\uae30\uace0\uc2dd \xb7 "+r.x
