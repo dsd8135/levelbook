@@ -3,7 +3,7 @@
     "short_name": "스마트 야장수첩",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#EEEAE1",
+    "background_color": "#0E6B67",
     "theme_color": "#B4460F",
     "description": "기고식 레벨측량 야장 자동 계산, 현장 계획 레벨과 비교, 엑셀·문서로 저장·공유",
     "orientation": "portrait-primary",
